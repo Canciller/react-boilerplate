@@ -1,9 +1,7 @@
 import React from 'react';
-import {
-  BrowserRouter,
-  Switch,
-  Route
-} from 'react-router-dom'
+
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+
 import Home from '@pages/Home';
 import NotFound from '@pages/NotFound';
 
@@ -20,6 +18,6 @@ const Router: React.FC = () => {
       </Switch>
     </BrowserRouter>
   );
-}
+};
 
 export default Router;

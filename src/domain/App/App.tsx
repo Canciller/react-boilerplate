@@ -1,6 +1,8 @@
 import React from 'react';
-import Router from '@domain/Router';
+
 import { Provider } from 'react-redux';
+
+import Router from '@domain/Router';
 import store from '@redux/store';
 
 function App() {
