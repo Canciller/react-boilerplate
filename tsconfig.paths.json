@@ -11,6 +11,8 @@
       "@services/*": ["./src/services/*"],
       "@utils/*": ["./src/utils/*"],
       "@context/*": ["./src/context/*"],
+      "@redux/*": ["./src/redux/*"],
+      "@config": ["./src/config"],
       "~/*": ["./src/*"]
     }
   }
