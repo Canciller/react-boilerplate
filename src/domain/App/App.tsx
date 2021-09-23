@@ -1,11 +1,9 @@
 import React from 'react';
-import styles from './App.module.scss';
+import Router from '@domain/Router';
 
 function App() {
   return (
-    <div className={styles.root}>
-      Hello, World!
-    </div>
+    <Router />
   );
 }
 
